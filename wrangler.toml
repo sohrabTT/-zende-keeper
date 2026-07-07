@@ -1,6 +1,11 @@
 name = "render-keep-alive"
 main = "src/index.js"
 compatibility_date = "2025-07-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[kv_namespaces]]
+binding = "STATUS_KV"
+id = ""
 
 [triggers]
 crons = ["*/5 * * * *"]
